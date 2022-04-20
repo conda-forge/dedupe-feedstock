@@ -1,5 +1,5 @@
 {% set name = "dedupe" %}
-{% set version = "2.0.13" %}
+{% set version = "2.0.14" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dedupe-{{ version }}.tar.gz
-  sha256: ce1b82e8acc2261214609d7304af840590cc89292f2f933d4b2e0763823b89c5
+  sha256: 4d3d313722400220410e6994c7bb40e04b5b6b93636ea6310839e21a71c06431
 
 build:
   number: 0
