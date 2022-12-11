@@ -1,5 +1,5 @@
 {% set name = "dedupe" %}
-{% set version = "2.0.19" %}
+{% set version = "2.0.20" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dedupe-{{ version }}.tar.gz
-  sha256: b5c6d07a0ac2145e981ec4cc648ec9947c6a7da24c49e9d9f5fb0b8330b4804e
+  sha256: 553e2f84f0c725c2bee154db990ff5460c65aca33eb58f4a64657e9dc41379b0
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [win]
 
